@@ -75,7 +75,7 @@ jobs:
               ;;
             aarch64-unknown-linux-gnu)
               sudo apt-get update
-              sudo apt-get install -y gcc-aarch64-linux-gnu protobuf-compiler pkg-config libssl-dev
+              sudo apt-get install -y gcc-aarch64-linux-gnu protobuf-compiler
 
               mkdir -p .cargo
               echo '[target.aarch64-unknown-linux-gnu]' >> .cargo/config
